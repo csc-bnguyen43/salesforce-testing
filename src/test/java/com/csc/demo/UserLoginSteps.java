@@ -45,7 +45,7 @@ public class UserLoginSteps {
 		driver.findElement(By.id("username")).clear();
 	    driver.findElement(By.id("username")).sendKeys("binhnguyen@hcmsfdg.vn");
 	    driver.findElement(By.id("password")).clear();
-	    driver.findElement(By.id("password")).sendKeys("a1234567");
+	    driver.findElement(By.id("password")).sendKeys("a7654321");
 	    driver.findElement(By.id("Login")).click();
 	}
 
